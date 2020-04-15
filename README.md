@@ -17,3 +17,10 @@ position 属性有以下几种值
 
 ### 1.1.2 fixed
 fixed是固定定位，绝对定位固定元素是相对于html 元素或其最近的定位祖先，而固定定位固定元素则是相对于浏览器视口本身。无论滚动条怎么移动，都不回改变位置。
+
+## 1.2 Flexbox
+
+Flex布局有两个轴，一个是main axis,一个是cross axis。main axis 是沿着 flex 元素放置的方向延伸的轴，cross axis是垂直于 flex 元素放置方向的轴。
+main axis默认是横向的，可以通过flex-direction设置为竖向。
+使用Flex布局时，任何溢出的元素都会自动移动到下一行。
+将某个容器的display元素设置为flex，则所有子元素的布局规则都会遵守Flex。
